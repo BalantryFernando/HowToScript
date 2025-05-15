@@ -10,6 +10,8 @@ set /p PUERTA=Introduce la puerta de enlace:
 echo Configurando IP...
 netsh interface ip set address "Ethernet" static %IP% %MASCARA% %PUERTA%
 echo Configuiración aplicada.
-::● Cree un log (registro) con la fecha y la configuración aplicada. 
+echo Iniciando registro con fecha y configuración aplicada
+echo [%DATE% %TIME%] Configuración de red: IP=%IP%, %MASCARA%, GATEWAY=%PUERTA% >> log_admin.txt
+echo Operación realiada con exito, revisa log_admin.txt para comprobarlo
 pause 
 
