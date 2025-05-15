@@ -9,3 +9,18 @@
 
 
 ## Usando scripts en Windows batch + *Preguntas importantes*
+<img src="images/Banner.png" style="vertical-align: bottom;">
+
+### Proyecto realizado en momentos libres y durante horas de descanso en clase
+
+> ##### La única forma de aprender un lenguaje de programación es haciéndolo a tu manera... aunque tu manera implique 17 errores de sintaxis por línea
+
+
+## Ejercicios que hice...
+
+- ¿Y si “echo” va con un símbolo “>” (mayor que)?
+- script llamado config_red.bat
+- admin_setup.bat ¿Qué hace? PARTE I
+- admin_setup.bat ¿Qué hace? PARTE II
+
+Y par de detallitos mas...
