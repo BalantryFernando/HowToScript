@@ -19,7 +19,7 @@
 ## Ejercicios que hice...
 
 - ¿Y si “echo” va con un símbolo “>” (mayor que)?
-- Scripts en windows batch (parte 2), script llamado config_red.bat
+- script llamado config_red.bat
 - admin_setup.bat ¿Qué hace? PARTE I
 - admin_setup.bat ¿Qué hace? PARTE II
 
