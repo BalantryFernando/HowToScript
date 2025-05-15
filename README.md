@@ -9,3 +9,4 @@
 
 
 ## Usando scripts en Windows batch + *Preguntas importantes*
+<img src="images/Banner.png" style="vertical-align: bottom;">
