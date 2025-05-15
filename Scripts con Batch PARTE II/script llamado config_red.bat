@@ -1,7 +1,7 @@
 
 :: Crea un script llamado config_red.bat que: 
 @echo off
-setlocal Ejercicio1
+setlocal enabledelayedexpansion
 
 set /p IP=Introduce tu IP estatica:
 set /p MASCARA=Introduce la mascara de subred:
