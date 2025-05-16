@@ -8,7 +8,7 @@ set/p MASCARA=Introduce la máscara de subred:
 set/p PUERTA=Introduce la puerta de enlace:
 :: Mensaje para el leector y se pine como si se estuviese configurando la IP 
 echo Configurando IP...
-:: Este sirve para entrar a la configuración del adaptador, en este caso "Ethernet" y asignarle la IP, MASARA y PUERTA  con las variables que escribior el usuario 
+:: Este sirve para entrar a la configuración del adaptador, en este caso "Ethernet" y asignarle la IP, MASARA y PUERTA  con las variables que escribio el usuario 
 netsh interface ip set address "Ethernet" static %IP% %MASCARA% %PUERTA%
 :: Mensaje para entregarle al lector de que la configuración ha sido aplicada 
 echo Configuración aplicada.
