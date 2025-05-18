@@ -1,9 +1,11 @@
 
 
-
+@echo off
 for /L %%i in (1,1,5) do (
-echo Iteración %%i
+echo Iteracion %%i
 )
+pause
+
 :: ¿Qué nos mostrará? ¿Alguien que quiera un 10?Que salga a explicarlo”
 
 ::Si no llevara el do, mostraria una cantidad de numeros del 1 al 5 en orden.
