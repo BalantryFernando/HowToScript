@@ -1,1 +1,7 @@
 
+Agregar contenido sin sobrescribir con echo >>
+● Si ya tienes un archivo y quieres agregar más contenido sin sobrescribir lo que ya está, puedes usar echo
+
+> . Este comando agrega el texto al final del archivo, sin borrar lo anterior (añade una nueva línea).
+¿Y si “echo” va con un símbolo “>” (mayor que)? Esto te lo dejo a tí, explicame que pasa.
+>
