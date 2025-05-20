@@ -1,6 +1,5 @@
 
 
-
 :: Si queremos copiar los 5 primeros archivos.txt (se seguria un orden como tal) + se renombraran como copia_1.txt y en orden...
 @echo off 
 setlocal enabledelayedexpansion
@@ -21,7 +20,7 @@ for %%F in (%origen%\*.txt) do (
     :: copia el "archiv_origen.txt" al destino, el archivo copiado tendra el nombre copia_1
     echo Copiado: %%F como_copia_!contador!.txt
     ::envia el mensaje Copiado: %%F que sera el archivo.txt original para que el usuario etienda que copia es "como_copia_1"
-    set /a contador+=1+
+    set /a contador+=1
     :: ira en ascendente osea, se sumara uno
     if !contador! gtr 5 goto:fin
     ::hasta llegar a 5

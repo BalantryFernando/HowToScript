@@ -1,20 +1,5 @@
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @echo off
 setlocal enabledelayedexpansion
 
@@ -26,3 +11,5 @@ for /L %%i in (1,1,5) do (
 )
 
 endlocal
+
+:: En este script si tenemos archivo.txt en la misma carpeta, se duplica una cantidad exacta de veces, como lo hemos definido seran unas 5 veces.
