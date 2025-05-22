@@ -29,13 +29,12 @@ echo Iniciando backup...
 :: Se usara robocopy, en este caso  robocopy usara la ubicación escrito en origen y lo llevara a la ubicación como destino. Haciendo la copia de seguridad de tal archivo "log_admin.txt"
 :: ! /E /Z /NP son parametros del robocopy!
 robocopy "%ORIGEN%" "%DESTINO%" /E/Z/NP/LOG+:log_admin.txt 
-:: se envia un mensaje al usuario para que vea que este archivo esta siendo copiado
+:: este "---" puede confundir pero en verdad separa la ultima información puesta en el archivo log_admin.txt, para asi mantener un orden
 echo --->> log_admin.txt 
+:: imprime la siguiente información en la ultima linea de log_admin.txt sin sobrescribir nada(en este caso fecha y hora).
 echo [%DATE% %TIME%] Configuración de red: IP=%IP%, MASK=%MASCARA%, GATEWAY=%PUERTA% >> log_admin.txt 
 :: Tal información como hora y dia se imprimen en el archivo, sobre cuando fue modificada la IP, MASCARA y GATEWAY
 echo [%DATE% %TIME%] Copia realizada de "%ORIGEN%" a "%DESTINO%" >> log_admin.txt 
-::Tal información como fecha y hora de la copia de seguridad se imprimen tambien en el log_admin.txt
-echo Operación completada. Revisa el archivo log_admin.txt
 :: Envia un mensaje para cambiar las ansias del leector para que sepa que las cosas ya estan hechas 
-pause
+echo Operación completada. Revisa el archivo log_admin.txt
 :: Para hacerle entender mediante el pulso de una tecla que el script ha terminado
