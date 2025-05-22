@@ -22,5 +22,8 @@
 - script llamado config_red.bat
 - admin_setup.bat ¿Qué hace? PARTE I
 - admin_setup.bat ¿Qué hace? PARTE II
+- Copiar origen-destino pero usuaro actua
+- Copiar origen-destino (usuario no actua)
+- for L.bat
 
 Y par de detallitos mas...
